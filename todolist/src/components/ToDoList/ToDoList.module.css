@@ -1,0 +1,30 @@
+.list__row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.list__row_input {
+    display: flex;
+    /*justify-content: start;*/
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 1.125em;
+    font-weight: 600;
+    margin-right: 13px;
+
+    max-width: 400px;
+}
+
+.title_crossed {
+    text-decoration: line-through;
+}
+
+.list__container {
+    display: flex;
+    flex-direction: column;
+}
