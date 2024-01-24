@@ -1,3 +1,10 @@
 .addToDo {
-    margin-bottom: 10px;
+    display: flex;
+    margin-bottom: 20px;
+
+    width: 100%;
+}
+
+.addInput {
+    width: 100%;
 }
