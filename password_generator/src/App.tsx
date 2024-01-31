@@ -1,7 +1,7 @@
 import {FC, useEffect, useState} from "react";
 import {IconButton} from "./components/iconButton.tsx";
-import ArrowPathIcon from "./shared/icons/ArrowPathIcon.tsx";
-import ClipBoardIcon from "./shared/icons/ClipBoardIcon.tsx";
+import {ArrowPathIcon, ClipBoardIcon} from "./shared/icons";
+
 
 function App() {
     const tabs = [

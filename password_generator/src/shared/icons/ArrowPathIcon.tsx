@@ -1,7 +1,7 @@
 import {FC} from "react";
 import {IIcon} from "../models/Icon.tsx";
 
-const ArrowPathIcon: FC<IIcon> = ({className, strokeWidth}) => {
+export const ArrowPathIcon: FC<IIcon> = ({className, strokeWidth}) => {
     return (
         <svg xmlns="http://www.w3.org/2000/svg"
              fill="none"
@@ -14,5 +14,3 @@ const ArrowPathIcon: FC<IIcon> = ({className, strokeWidth}) => {
         </svg>
     );
 };
-
-export default ArrowPathIcon;
